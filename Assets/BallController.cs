@@ -18,7 +18,7 @@ public class BallController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space) & gameStarted = false;
+        if (Input.GetKey(KeyCode.Space) && gameStarted = false)
             SendBallToRandomDirection();
     }
     private void SendBallToRandomDirection()
